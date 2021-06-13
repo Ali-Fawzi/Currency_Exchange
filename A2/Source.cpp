@@ -46,7 +46,7 @@ public:
 				std::cout << "GoodBye ^_^\a ";//print GoodBye if the user choiced to EXIT
 				break;
 			default:
-				std::cout << "invalid selection, please try again\a\n ";
+				std::cout << "invalid selection, please try again\a\n ";// print the default statment
 			}
 		} while (y != 0);
 	}
