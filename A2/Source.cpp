@@ -52,7 +52,7 @@ public:
 	}
 };
 int main() {
-	system("color 5");
+	system("color 5");//set colour to purple
 	currency CURRENCY;
 	CURRENCY.exchange();
 }
