@@ -33,14 +33,14 @@ public:
 				std::cout << x * 0.71 << " Pound\n\a";//
 				break;
 			case 4:
-				std::cout << "Enter the value: ";
-				std::cin >> x;
-				std::cout << x * 0.83 << " Euro\n\a";
+				std::cout << "Enter the value: ";//
+				std::cin >> x;//
+				std::cout << x * 0.83 << " Euro\n\a";//
 				break;
 			case 5:
-				std::cout << "Enter the value: ";
-				std::cin >> x;
-				std::cout << x * 1.41 << " $\n\a";
+				std::cout << "Enter the value: ";//
+				std::cin >> x;//
+				std::cout << x * 1.41 << " $\n\a";//
 				break;
 			case 0:
 				std::cout << "GoodBye ^_^\a ";
