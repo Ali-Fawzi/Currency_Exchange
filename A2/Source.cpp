@@ -16,7 +16,7 @@ public:
 		do {
 			selection();//function summoning
 			std::cin >> y;//input for selections
-			switch (y) {// switching cases
+			switch (y) {//switching cases
 			case 1:
 				std::cout << "Enter the value: ";//print the statement
 				std::cin >> x;//get input
@@ -28,19 +28,19 @@ public:
 				std::cout << x * 0.86 << " Pound\n\a";//
 				break;
 			case 3:
-				std::cout << "Enter the value: ";//
-				std::cin >> x;//
-				std::cout << x * 0.71 << " Pound\n\a";//
+				std::cout << "Enter the value: ";//same
+				std::cin >> x;//same
+				std::cout << x * 0.71 << " Pound\n\a";//same
 				break;
 			case 4:
-				std::cout << "Enter the value: ";//
-				std::cin >> x;//
-				std::cout << x * 0.83 << " Euro\n\a";//
+				std::cout << "Enter the value: ";//same
+				std::cin >> x;//same
+				std::cout << x * 0.83 << " Euro\n\a";//same
 				break;
 			case 5:
-				std::cout << "Enter the value: ";//
-				std::cin >> x;//
-				std::cout << x * 1.41 << " $\n\a";//
+				std::cout << "Enter the value: ";//same
+				std::cin >> x;//same
+				std::cout << x * 1.41 << " $\n\a";//same
 				break;
 			case 0:
 				std::cout << "GoodBye ^_^\a ";//print GoodBye if the user choiced to EXIT
