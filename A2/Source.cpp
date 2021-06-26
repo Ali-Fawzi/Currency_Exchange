@@ -18,7 +18,7 @@ public:
 			std::cin >> y;//input for selections.
 			switch (y) {//switching cases.
 			case 1:
-				std::cout << "Enter the value: ";//print the statement
+				std::cout << "Enter the value: ";//print the statement.
 				std::cin >> x;//get input
 				std::cout << x*1.21 << " $\n\a";//print the result ,\a is for alarm
 				break;
