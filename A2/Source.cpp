@@ -24,13 +24,13 @@ public:
 				break;
 			case 2:
 				std::cout << "Enter the value: ";//same.
-				std::cin >> x;//
+				std::cin >> x;//same.
 				std::cout << x * 0.86 << " Pound\n\a";//same.
 				break;
 			case 3:
-				std::cout << "Enter the value: ";//same
-				std::cin >> x;//same
-				std::cout << x * 0.71 << " Pound\n\a";//same
+				std::cout << "Enter the value: ";//same.
+				std::cin >> x;//same.
+				std::cout << x * 0.71 << " Pound\n\a";//same.
 				break;
 			case 4:
 				std::cout << "Enter the value: ";//same
