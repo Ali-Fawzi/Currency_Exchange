@@ -38,9 +38,9 @@ public:
 				std::cout << x * 0.83 << " Euro\n\a";//same.
 				break;
 			case 5:
-				std::cout << "Enter the value: ";//same
+				std::cout << "Enter the value: ";//same.
 				std::cin >> x;//same
-				std::cout << x * 1.41 << " $\n\a";//same
+				std::cout << x * 1.41 << " $\n\a";//same.
 				break;
 			case 0:
 				std::cout << "GoodBye ^_^\a ";//print GoodBye if the user choiced to EXIT
