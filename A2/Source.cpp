@@ -33,9 +33,9 @@ public:
 				std::cout << x * 0.71 << " Pound\n\a";//same.
 				break;
 			case 4:
-				std::cout << "Enter the value: ";//same
+				std::cout << "Enter the value: ";//same.
 				std::cin >> x;//same
-				std::cout << x * 0.83 << " Euro\n\a";//same
+				std::cout << x * 0.83 << " Euro\n\a";//same.
 				break;
 			case 5:
 				std::cout << "Enter the value: ";//same
