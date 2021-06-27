@@ -48,7 +48,7 @@ public:
 			default:
 				std::cout << "invalid selection, please try again\a\n ";// print the default statment.
 			}
-		} while (y != 0);// breaks the loop if y=0
+		} while (y != 0);// breaks the loop if y=0.
 	}
 };
 int main() {
