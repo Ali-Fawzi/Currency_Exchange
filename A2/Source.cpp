@@ -43,7 +43,7 @@ public:
 				std::cout << x * 1.41 << " $\n\a";//same.
 				break;
 			case 0:
-				std::cout << "GoodBye ^_^\a ";//print GoodBye if the user choiced to EXIT
+				std::cout << "GoodBye ^_^\a ";//print GoodBye if the user choiced to EXIT.
 				break;
 			default:
 				std::cout << "invalid selection, please try again\a\n ";// print the default statment
