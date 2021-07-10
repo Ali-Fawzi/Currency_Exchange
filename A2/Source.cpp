@@ -12,7 +12,7 @@ public:
 			std::cout << ">Press 5 to exchange Pound to USD\n";
 			std::cout << ">Press 0 to EXIT\n";
 	}
-	void exchange() {//function for the loop
+	void exchange() {//function for the loop.
 		do {
 			selection();//function summoning.
 			std::cin >> y;//input for selections.
