@@ -1,8 +1,8 @@
 #include<iostream>
-class currency {//class.
+class currency {//class
 public:
-	double x;//variable.
-	int y;//variable.
+	double x;//variable
+	int y;//variable
 	void selection() {//function to print choices.
 		std::cout << "\tEuro Pound USD\t\tMONEY EXCHANGE\t\tUSD Pound Euro\n";
 			std::cout << ">Press 1 to exchange Euro to USD\n";
