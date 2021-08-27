@@ -1,5 +1,5 @@
 #include<iostream>
-class currency {//class
+class currency {//class.
 public:
 	double x;//variable
 	int y;//variable
