@@ -1,7 +1,7 @@
 #include<iostream>
 class currency {//class.
 public:
-	double x;//variable
+	double x;//variable.
 	int y;//variable
 	void selection() {//function to print choices
 		std::cout << "\tEuro Pound USD\t\tMONEY EXCHANGE\t\tUSD Pound Euro\n";
