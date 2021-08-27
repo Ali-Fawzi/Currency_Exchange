@@ -1,9 +1,9 @@
 #include<iostream>
-class currency {//class.
+class currency {//class
 public:
-	double x;//variable.
-	int y;//variable.
-	void selection() {//function to print choices.
+	double x;//variable
+	int y;//variable
+	void selection() {//function to print choices
 		std::cout << "\tEuro Pound USD\t\tMONEY EXCHANGE\t\tUSD Pound Euro\n";
 			std::cout << ">Press 1 to exchange Euro to USD\n";
 			std::cout << ">Press 2 to exchange Euro to Pound\n";
@@ -12,10 +12,10 @@ public:
 			std::cout << ">Press 5 to exchange Pound to USD\n";
 			std::cout << ">Press 0 to EXIT\n";
 	}
-	void exchange() {//function for the loop.
+	void exchange() {//function for the loop
 		do {
-			selection();//function summoning.
-			std::cin >> y;//input for selections.
+			selection();//function summoning
+			std::cin >> y;//input for selections
 			switch (y) {//switching cases.
 			case 1:
 				std::cout << "Enter the value: ";//print the statement.
