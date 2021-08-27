@@ -14,7 +14,7 @@ public:
 	}
 	void exchange() {//function for the loop.
 		do {
-			selection();//function summoning
+			selection();//function summoning.
 			std::cin >> y;//input for selections
 			switch (y) {//switching cases.
 			case 1:
